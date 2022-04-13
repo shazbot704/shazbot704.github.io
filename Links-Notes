@@ -20,58 +20,29 @@ https://codepen.io/
 https://www.codewars.com/
 http://wwwhere.io/
 
-<div class="bookmark">
-        <div class="category">
-          <div class="icon"><img src="icons/code.svg" /></div>
-          <div class="bookmarks cod">
-            <li><a class="bm" href="https://www.hackerrank.com/dashboard">Hackerrank</a></li>
-            <li><a class="bm" href="https://leetcode.com/problemset/algorithms/">LeetCode</a></li>
-            <li><a class="bm" href="https://stackoverflow.com/">Stackoverflow</a></li>
-            <li><a class="bm" href="https://www.coursera.org/in-progress">Coursera</a></li>
-            <li><a class="bm" href="https://codeforces.com/">CodeForces</a></li>
-          </div>
-        </div>
-
-        <div class="category">
-          <div class="icon"><img src="icons/docs.svg" /></div>
-          <div class="bookmarks doc">
-            <li><a class="bm" href="https://en.cppreference.com/w/">C++</a></li>
-            <li><a class="bm" href="https://docs.python.org/3.7/library/index.html">Python</a></li>
-            <li><a class="bm" href="https://mail.google.com/mail/u/0/h/">Mail</a></li>
-            <li><a class="bm" href="https://github.com/dbuxy218">Github</a></li>
-            <li><a class="bm" href="https://mega.nz/">Mega</a></li>
-          </div>
-        </div>
-
-        <div class="category">
-          <div class="icon"><img src="icons/entertainment.svg" /></div>
-          <div class="bookmarks ent">
-            <li><a class="bm" href="https://www.youtube.com/">Youtube</a></li>
-            <li><a class="bm" href="https://twitter.com/home">Twitter</a></li>
-            <li><a class="bm" href="https://www10.gogoanime.io/">Gogoanime</a></li>
-            <li><a class="bm" href="https://kimcartoon.to/">Kimcartoon</a></li>
-            <li><a class="bm" href="https://www.reddit.com/">Reddit</a></li>
-          </div>
-        </div>
-
-        <div class="category">
-          <div class="icon"><img src="icons/music.svg" /></div>
-          <div class="bookmarks mus">
-            <li><a class="bm" href="https://open.spotify.com/">Spotify</a></li>
-            <li><a class="bm" href="https://thelastdisaster.org/">LDisaster</a></li>
-            <li><a class="bm" href="https://deathgrind.club/">Deathgrind</a></li>
-            <li><a class="bm" href="https://coreradio.ru/">Core Radio</a></li>
-            <li><a class="bm" href="https://blogmg23.blogspot.com/">Mg23</a></li>
-          </div>
-        </div>
-
-        <div class="category">
-          <div class="icon"><img src="icons/art.svg" /></div>
-          <div class="bookmarks art">
-            <li><a class="bm" href="https://www.behance.net/">Behance</a></li>
-            <li><a class="bm" href="https://www.deviantart.com/">Deviantart</a></li>
-            <li><a class="bm" href="https://www.tumblr.com/dashboard">Tumblr</a></li>
-            <li><a class="bm" href="https://unsplash.com/">Unsplash</a></li>
-            <li><a class="bm" href="https://in.pinterest.com/">Pinterest</a></li>
-          </div>
-        </div>
+Misc Links
+<li><a class="bm" href="https://www.hackerrank.com/dashboard">Hackerrank</a></li>
+<li><a class="bm" href="https://leetcode.com/problemset/algorithms/">LeetCode</a></li>
+<li><a class="bm" href="https://stackoverflow.com/">Stackoverflow</a></li>
+<li><a class="bm" href="https://www.coursera.org/in-progress">Coursera</a></li>
+<li><a class="bm" href="https://codeforces.com/">CodeForces</a></li>
+<li><a class="bm" href="https://en.cppreference.com/w/">C++</a></li>
+<li><a class="bm" href="https://docs.python.org/3.7/library/index.html">Python</a></li>
+<li><a class="bm" href="https://mail.google.com/mail/u/0/h/">Mail</a></li>
+<li><a class="bm" href="https://github.com/dbuxy218">Github</a></li>
+<li><a class="bm" href="https://mega.nz/">Mega</a></li>
+<li><a class="bm" href="https://www.youtube.com/">Youtube</a></li>
+<li><a class="bm" href="https://twitter.com/home">Twitter</a></li>
+<li><a class="bm" href="https://www10.gogoanime.io/">Gogoanime</a></li>
+<li><a class="bm" href="https://kimcartoon.to/">Kimcartoon</a></li>
+<li><a class="bm" href="https://www.reddit.com/">Reddit</a></li>
+<li><a class="bm" href="https://open.spotify.com/">Spotify</a></li>
+<li><a class="bm" href="https://thelastdisaster.org/">LDisaster</a></li>
+<li><a class="bm" href="https://deathgrind.club/">Deathgrind</a></li>
+<li><a class="bm" href="https://coreradio.ru/">Core Radio</a></li>
+<li><a class="bm" href="https://blogmg23.blogspot.com/">Mg23</a></li>
+<li><a class="bm" href="https://www.behance.net/">Behance</a></li>
+<li><a class="bm" href="https://www.deviantart.com/">Deviantart</a></li>
+<li><a class="bm" href="https://www.tumblr.com/dashboard">Tumblr</a></li>
+<li><a class="bm" href="https://unsplash.com/">Unsplash</a></li>
+<li><a class="bm" href="https://in.pinterest.com/">Pinterest</a></li>
