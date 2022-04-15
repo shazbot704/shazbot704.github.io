@@ -1,68 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <title>Shazbot704 Start Page</title>
-    <base href="/">
+    <meta charset="utf-8" />
+    <title>Startpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
     <!-- Import Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     
-    <!-- Import CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
+    <noscript>
+        <style>
+            #clock {
+                display: none;
+            }
+        </style>
+    </noscript>
 </head>
-<!--  TODO:
-Search Bars
-Daily Weather
--->
-	
-<body><center>
-<h1>shazbot704.github.io</h1>
-<!-- <iframe src="https://duckduckgo.com/search.html?width=250&prefill=DuckDuckGo&focus=yes" style="overflow:hidden;margin:0;padding:0;width:308px;height:40px;" frameborder="0"></iframe> -->
-    <h2>Applications</h2>
-        <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a><br>
-        <a href="https://drive.google.com/drive/u/0/my-drive">Drive</a><br>
-        <a href="https://vault.bitwarden.com/#/vault">Bitwarden</a><br>
-        <a href="https://todoist.com/">Todoist</a><br>
-        <a href="https://forecast.weather.gov/MapClick.php?w0=t&w2=wc&w3=sfcwind&w4=sky&w5=pop&w6=rh&w7=rain&w8=thunder&w9=snow&w10=fzg&w11=sleet&AheadHour=0&Submit=Submit&&FcstType=digital&textField1=33.1391&textField2=-96.1068&site=all">Weather</a><br>
-        <a href="https://www.messenger.com/?force_isolation=true">FB Messenger</a><br>
-        <a href="https://calendar.google.com/calendar">Google Calender</a><br>
-        <a href="http://discord.com">Discord</a><br>
-        <a href="http://youtube.com">Youtube</a><br>
-    <h2>Games</h2>
-        <a href="https://cheapshark.com/">Cheapshark</a><br>
-        <a href="https://www.gog.com/">GOG</a><br>
-        <a href="https://store.steampowered.com/">Steam</a><br>
-        <a href="https://humblebundle.com/">Humble Bundle</a><br>
-        <a href="https://fanatical.com/">Fanatical</a><br>
-  <h3>Tabletop</h3>
-        <a href="https://www.dndbeyond.com/my-characters">D&D Beyond</a><br>
-        <a href="https://roll20.net/welcome">Roll20</a><br>
-        <a href="https://app.reroll.co/select-character">Reroll</a><br>
-        <a href="https://rpgbot.net/dnd5/">RPGBOT</a><br>
-        <a href="https://forums.giantitp.com/">GiantITP</a><br>
-	
-    <h2>Media</h2>
-        <a href="https://youtube.com/feed/library">Youtube</a><br>
-        <a href="https://netflix.com">Netflix</a><br>
-        <a href="https://disneyplus.com/">Disney+</a><br>
-        <a href="https://music.youtube.com/">Youtube Music</a><br>
-        <a href="https://hbh.sh/articles">hbh.sh</a><br>
-    <h2>Dev</h2>
-        <a href="http://github.com/shazbot704">github</a><br>
-        <a href="https://vscode.dev/">VS Code</a><br>
-        <a href="https://codepen.io/">CodePen</a><br>
-        <a href="https://dillinger.io/">dillinger.io</a><br>
-        <a href="https://wiki.archlinux.org/">ArchWiki</a><br>
-        <a href="https://docs.python.org/3.7/library/index.html">Python</a><br>
-        <a href="https://overapi.com/">Cheat Sheets</a><br>
-    <h2>Music Playlists</h2>
-    <a href="https://music.youtube.com/playlist?list=PL97cY16ObcQCdCY7Zfli5fTNm8yk5h3FF">102.1 The Edge</a><br>
 
+<body>
+    <main>
+        <div id="top-div">
+            <div id="clock-div">
+                <h1 id="clock">
+                    00/00/0000
+                    00:00:00
+                </h1>
+            </div>
+
+            <form id="search-form" action="https://duckduckgo.com">
+                <div id="search-bar-wrapper">
+                    <input id="search-bar" name="q" type="text" title="Search" />
+                    <button id="search-bar-btn" type="submit">&#128270;</button>
+                </div>
+            </form>
+        </div>
+        <div id="links-container">
+            <section class="link-section">
+                <h2 class="link-section-title red">Applications</h2>
+                <hr />
+                <ul class="link-list">
+                    <li class="link-list-item"><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a><br></li>
+                    <li class="link-list-item"></li><a href="https://drive.google.com/drive/u/0/my-drive">Drive</a><br></li>
+                    <li class="link-list-item"></li><a href="https://vault.bitwarden.com/#/vault">Bitwarden</a><br></li>
+                    <li class="link-list-item"></li><a href="https://todoist.com/">Todoist</a><br></li>
+                    <li class="link-list-item"></li><a href="https://forecast.weather.gov/MapClick.php?w0=t&w2=wc&w3=sfcwind&w4=sky&w5=pop&w6=rh&w7=rain&w8=thunder&w9=snow&w10=fzg&w11=sleet&AheadHour=0&Submit=Submit&&FcstType=digital&textField1=33.1391&textField2=-96.1068&site=all">Weather</a><br></li>
+                    <li class="link-list-item"></li><a href="https://www.messenger.com/?force_isolation=true">FB Messenger</a><br></li>
+                    <li class="link-list-item"></li><a href="https://calendar.google.com/calendar">Google Calender</a><br></li>
+                    <li class="link-list-item"></li><a href="http://discord.com">Discord</a><br></li>
+                    <li class="link-list-item"></li><a href="http://youtube.com">Youtube</a><br></li>
+                </ul>
+            </section>
+            <section class="link-section">
+                <h2 class="link-section-title blue">Games</h2>
+                <hr />
+                <ul class="link-list">
+                    <li class="link-list-item"></li><a href="https://www.gog.com/">GOG</a></li>
+                    <li class="link-list-item"></li><a href="https://store.steampowered.com/">Steam</a></li>
+                    <li class="link-list-item"></li><a href="https://humblebundle.com/">Humble Bundle</a></li>
+                    <li class="link-list-item"></li><a href="https://fanatical.com/">Fanatical</a></li>
+                </ul>
+            </section>
+            <section class="link-section">
+                <h2 class="link-section-title green">Tabletop</h2>
+                <hr />
+                <ul class="link-list">
+                    <li class="link-list-item"><a href="https://www.dndbeyond.com/my-characters">D&D Beyond</a></li>
+                    <li class="link-list-item"><a href="https://roll20.net/welcome">Roll20</a></li>
+                    <li class="link-list-item"></li><a href="https://app.reroll.co/select-character">Reroll</a></li>
+                    <li class="link-list-item"></li><a href="https://rpgbot.net/dnd5/">RPGBOT</a></li>
+                    <li class="link-list-item"></li><a href="https://forums.giantitp.com/">GiantITP</a></li>
+                </ul>
+            </section>
+            <section class="link-section">
+                <h2 class="link-section-title purple">Media</h2>
+                <hr />
+                <ul class="link-list">
+                    <li class="link-list-item"><a href="https://youtube.com/feed/library">Youtube</a></li>
+                    <li class="link-list-item"></li><a href="https://netflix.com">Netflix</a></li>
+                    <li class="link-list-item"></li><a href="https://disneyplus.com/">Disney+</a></li>
+                    <li class="link-list-item"></li><a href="https://music.youtube.com/">Youtube Music</a></li>
+                    <li class="link-list-item"></li><a href="https://hbh.sh/articles">hbh.sh</a></li>
+                </ul>
+            </section>
+            <section class="link-section">
+                <h2 class="link-section-title purple">Dev</h2>
+                <hr />
+                <ul class="link-list">
+                    <li class="link-list-item"></li><a href="https://vscode.dev/">VS Code</a></li>
+                    <li class="link-list-item"></li><a href="https://codepen.io/">CodePen</a></li>
+                    <li class="link-list-item"></li><a href="https://dillinger.io/">dillinger.io</a></li>
+                    <li class="link-list-item"></li><a href="https://wiki.archlinux.org/">ArchWiki</a></li>
+                    <li class="link-list-item"></li><a href="https://docs.python.org/3.7/library/index.html">Python</a></li>
+                    <li class="link-list-item"></li><a href="https://overapi.com/">Cheat Sheets</a></li>
+                </ul>
+            </section>
+            <section class="link-section">
+                <h2 class="link-section-title purple">Playlists</h2>
+                <hr />
+                <ul class="link-list">
+                    <li class="link-list-item"></li><a href="https://music.youtube.com/playlist?list=PL97cY16ObcQCdCY7Zfli5fTNm8yk5h3FF">102.1 The Edge</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
