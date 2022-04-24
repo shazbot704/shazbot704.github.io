@@ -208,11 +208,11 @@ main {
     column-gap: 0vw;
     display: grid;
     grid-column-gap: 0vw;
-    grid-row-gap: 0vh;
+    grid-row-gap: 5vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-content: center;
-    padding: 2vh 5vw 1vh 5vw;
+    padding: 2vh 5vw 2vh 5vw;
     row-gap: 5vh;
 }
 
