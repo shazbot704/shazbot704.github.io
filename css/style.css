@@ -21,7 +21,7 @@
 
 /* Elements */
 a {
-    color: #f8f8f2;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ html {
 body {
     align-items: center;
     background-color: var(--main-bg-color);
-    color: #f8f8f2;
+    color: var(--text-color);
     display: flex;
     height: 100%;
     justify-content: center;
@@ -65,7 +65,7 @@ main {
 }
 
 .link-section {
-    background-color: #44475a;
+    background-color: var(--body-color);
     padding: 10px;
     overflow-y: auto;
     box-shadow: 0px 0px 15px 2px #111;
@@ -84,7 +84,7 @@ main {
 }
 
 .link-list-item {
-    color: #f8f8f2;
+    color: var(--text-color);
     align-items: center;
     display: flex;
     height: 2em;
@@ -97,11 +97,11 @@ main {
 }
 
 /* .link-list-item:hover {
-    background-color: #888;
+    background-color: var(--body-color);
 } */
 
 .link {
-    color: #f8f8f2;
+    color: var(--text-color);
     display: block;
     width: 100%;
     height: 100%;
@@ -167,7 +167,7 @@ main {
 }
 
 #search-bar, #search-bar-btn {
-    background-color: #44475a;
+    background-color: var(--body-color);
     border-color: #6272a4 ;
     border-style: solid;
     border-width: 1px;
@@ -176,7 +176,7 @@ main {
 #search-bar {
     box-shadow: 0px 0px 15px 2px #111;
     box-sizing: border-box;
-    color: #f8f8f2;
+    color: var(--text-color);
     font-size: 16px;
     height: 25px;
     padding: 0 25px 0 0;
@@ -205,7 +205,7 @@ main {
 }
 
 .material-icons {
-  color: #f8f8f2;
+  color: var(--text-color);
 }
 
 #links-container {
