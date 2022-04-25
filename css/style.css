@@ -48,7 +48,7 @@ html {
 
 body {
     align-items: center;
-    background-color: var(--main-bg-color, pink);
+    background-color: var(--main-bg-color, green);
     color: var(--text-color);
     display: flex;
     height: 100%;
