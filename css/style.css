@@ -1,3 +1,7 @@
+/* Theme */
+@import url("../css/nord.css");
+
+
 /* Fonts */
 @font-face {
     font-family: Roboto-Regular;
@@ -32,7 +36,7 @@ html {
 
 body {
     align-items: center;
-    background-color: #282a36;
+    background-color: var(--main-bg-color);
     color: #f8f8f2;
     display: flex;
     height: 100%;
