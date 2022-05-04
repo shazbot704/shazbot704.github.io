@@ -76,10 +76,10 @@ main {
 }
 
 .link-section {
-    background-color: var(--body-color);
+    /*background-color: var(--body-color);*/
     padding: 10px;
     overflow-y: auto;
-    box-shadow: 0px 0px 15px 2px #111;
+    /*box-shadow: 0px 0px 15px 2px #111;*/
 }
 
 .link-section-title {
