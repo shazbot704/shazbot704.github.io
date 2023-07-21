@@ -112,10 +112,73 @@
             </form> -->
         </div>
         <a class="weatherwidget-io" href="https://forecast7.com/en/33d14n96d11/greenville/?unit=us" data-label_1="GREENVILLE" data-label_2="WEATHER" data-font="Roboto" data-theme="original" data-basecolor="rgba(31, 86, 124, 0)" >GREENVILLE WEATHER</a>
-<script>
+<!-- <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+</script> -->
     </main>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+<!-- Import Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!-- Clock Styles -->
+<style>
+    body {
+        background-color: #282a36;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .clock-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+    }
+
+    .time {
+        font-size: 3rem;
+        color: #f8f8f2;
+    }
+
+    .date {
+        font-size: 1.5rem;
+        color: #f8f8f2;
+        margin-top: 10px;
+    }
+</style>
+
+<!-- Clock Script -->
+<script>
+    function updateTime() {
+        const currentTime = new Date();
+        const timeElement = document.getElementById('time');
+        const dateElement = document.getElementById('date');
+
+        // Format time as military time (24-hour format)
+        const hours = currentTime.getHours().toString().padStart(2, '0');
+        const minutes = currentTime.getMinutes().toString().padStart(2, '0');
+        const seconds = currentTime.getSeconds().toString().padStart(2, '0');
+
+        // Format date as "day Month Year" (e.g., 21 July 2023)
+        const options = { day: 'numeric', month: 'long', year: 'numeric' };
+        const formattedDate = currentTime.toLocaleDateString('en-US', options);
+
+        // Display time and date
+        timeElement.textContent = `${hours}:${minutes}:${seconds}`;
+        dateElement.textContent = formattedDate;
+    }
+
+    // Update time every second
+    setInterval(updateTime, 1000);
+
+    // Initial call to display the time immediately
+    updateTime();
+</script>
+
 </body>
 </html>
