@@ -51,4 +51,4 @@ toggleBtn.addEventListener("click", toggleDayNightMode);
 // Initial setup
 fetchWeatherData();
 updateClock();
-setInterval(updateClock, 10000); // Update clock every ten seconds
+setInterval(updateClock, 1000); // Update clock every second
