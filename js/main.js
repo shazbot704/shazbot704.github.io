@@ -79,33 +79,5 @@
      }
  });
 
-/**
-chatgpt clock
-**/
-
-function updateTime() {
-    const currentTime = new Date();
-    const timeElement = document.getElementById('time');
-    const dateElement = document.getElementById('date');
-
-    // Format time as military time (24-hour format)
-    const hours = currentTime.getHours().toString().padStart(2, '0');
-    const minutes = currentTime.getMinutes().toString().padStart(2, '0');
-    const seconds = currentTime.getSeconds().toString().padStart(2, '0');
-
-    // Format date as "day Month Year" (e.g., 21 July 2023)
-    const options = { day: 'numeric', month: 'long', year: 'numeric' };
-    const formattedDate = currentTime.toLocaleDateString('en-US', options);
-
-    // Display time and date
-    timeElement.textContent = `${hours}:${minutes}:${seconds}`;
-    dateElement.textContent = formattedDate;
-}
-
-// Update time every second
-setInterval(updateTime, 1000);
-
-// Initial call to display the time immediately
-updateTime();
 
 
